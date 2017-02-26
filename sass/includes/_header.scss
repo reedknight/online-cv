@@ -24,7 +24,8 @@
         h2, p, #profile_picture_container {
             text-align: center;
         }
-        @media only screen, print and (min-width: $breakpoint-small) {
+        
+        @media only screen and (min-width: $breakpoint-med) {
             h2, p {
                 text-align: justify;
             }
