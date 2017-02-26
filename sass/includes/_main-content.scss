@@ -1,0 +1,87 @@
+#main-content {
+    margin-top: 10px;
+    #col-left {
+        width: 95%;
+    }
+    * {
+        font-family: $font-stack;
+    }
+    h3.section-heading {
+        color: $heading-color;
+        margin: 0;
+        padding-bottom: 3px;
+        border-bottom: 4px solid $heading-color;
+        display: inline-block;
+        font-weight: bold;
+        font-size: 1.29em;
+    }
+    section.item {
+        h3.item-heading {
+            color: $main-text-color-1;
+            font-weight: bold;
+            font-size: 1em;
+            line-height: 1em;
+            margin: 10px 0 0;
+        }
+        h5 {
+            margin: -8px 0 0;
+            color: $main-text-color-1;
+            font-weight: normal;
+            font-size: 0.96em;
+        }
+        .item-date {
+            font-size: 0.7rem;
+            margin-top: 0;
+            font-style: italic;
+        }
+        ul {
+            padding-left: 15px;
+            margin: 5px 0;
+            li {
+                font-size: 0.75rem;
+                line-height: 1.2em;
+                text-align: justify;
+                color: $main-text-color-1;
+                margin: 5px 0
+            }
+        }
+        ul.row {
+            padding-left: 8px;
+            margin-top: -10px;
+            .col-6 {
+                margin-bottom: 0px;
+            }
+        }
+        p.item-heading {
+            font-size: 0.8em;
+            padding: 0px;
+            margin: 3px 0 0 0;
+            color: $main-text-color-1;
+            line-height: 1.3em;
+            text-align: justify;
+        }
+        div.skill-rating {
+            span {
+                width: 25px;
+                height: 25px;
+                display: -webkit-inline-box;
+                border-radius: 100%;
+                margin-right: 14px;
+            }
+            span.yes {
+                background-color: $skill-yes;
+            }
+            span.no {
+                background-color: $skill-no;
+            }
+        }
+        p.item-description {
+            font-size: 0.8em;
+            padding: 0px;
+            margin: 0;
+            color: $main-text-color-2;
+            line-height: 1.1em;
+        }
+    }
+
+}
