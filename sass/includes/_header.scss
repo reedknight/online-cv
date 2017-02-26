@@ -1,0 +1,54 @@
+#header-1 {
+    background-color: $header-bg-1;
+    min-height: 200px;
+    * {
+        color: $header-1-color;
+    }
+    .row {
+        padding-top: 22px;
+        h2,p {
+            font-family: $font-stack;
+            margin: 0;
+            font-weight: normal;
+        }
+        p {
+            font-size: 0.85em;
+            margin-top: 20px;
+            line-height: 1.4em;
+        }
+        #profile_picture {
+            max-height: 130px;
+            border: 4px solid #384458;
+            border-radius: 100px;
+        }
+        h2, p, #profile_picture_container {
+            text-align: center;
+        }
+        @media only screen, print and (min-width: $breakpoint-small) {
+            h2, p {
+                text-align: justify;
+            }
+            #profile_picture_container {
+                text-align: right;
+            }
+        }
+    }
+}
+
+#header-2 {
+    background-color: $header-bg-2;
+    .row {
+        * {
+            color: $header-2-color;
+        }
+        p {
+            margin: 0;
+            font-size: 0.78em;
+            line-height: 1.4em;
+            .fa {
+                font-size: 1em;
+                margin-right: 5px;
+            }
+        }
+    }
+}
