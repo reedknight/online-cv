@@ -24,7 +24,7 @@
         h2, p, #profile_picture_container {
             text-align: center;
         }
-        
+
         @media only screen and (min-width: $breakpoint-med) {
             h2, p {
                 text-align: justify;
@@ -44,7 +44,7 @@
         }
         p {
             margin: 0;
-            font-size: 0.78em;
+            font-size: 0.8em;
             line-height: 1.4em;
             .fa {
                 font-size: 1em;
