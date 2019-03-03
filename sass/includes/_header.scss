@@ -1,11 +1,11 @@
 #header-1 {
     background-color: $header-bg-1;
-    min-height: 200px;
+    min-height: 180px;
     * {
         color: $header-1-color;
     }
     .row {
-        padding-top: 22px;
+        padding-top: 15px;
         h2,p {
             font-family: $font-stack;
             margin: 0;
